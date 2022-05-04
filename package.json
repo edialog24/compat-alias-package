@@ -25,7 +25,9 @@
       "module": "./jsx-runtime.mjs",
       "import": "./jsx-runtime.mjs",
       "require": "./jsx-runtime.js"
-    }
+    },
+    "./*": "./*.js",
+    "./": "./"
   },
   "repository": "preactjs/compat-alias-package",
   "author": "Preact Team <team@preactjs.com>",
